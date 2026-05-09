@@ -173,3 +173,54 @@ The tool is now active and ready to answer queries using both the SQL database a
 | `get_schema.py` | Extracts database table schemas for the SQL engine |
 | `final_testsql.py` | Converts queries to SQL and fetches results from the database |
 | `main.py` | Launches the complete AI helpdesk tool in the CLI |
+
+### Examples:
+1. ## RAG
+  'What is the SLA for a security incident?'
+
+================ AI ANSWER ================
+I do not have enough information in the provided documentation to answer this. While the documentation indicates that a confirmed security incident triggers a Level 3 Escalation and that critical incidents are handled 24/7, it does not specify a concrete SLA target for security incidents. It only mentions "accelerated SLA targets" for enterprise customers without detailing what those targets are.
+
+================ SOURCES USED ================
+- docs\sla_policy.md
+- docs\escalation_policy.md
+- docs\security_incident_response.md
+
+2. ## SQL
+  🚀 Enterprise AI Support Assistant Started!
+Type 'exit' or 'quit' to stop the assistant.
+=====================================================
+
+🧑‍💻 You (Ask a question)number of organizations?
+
+User Asked: 'number of organizations?'
+Thinking...
+
+[System] Route chosen: SQL (Querying Database...)
+
+================ AI ANSWER ================
+There are 14 organizations.
+===========================================
+3. ## Mix of Both
+🧑‍💻 You (Ask a question)what is max number of tickets related to and its sla policy ?
+
+User Asked: 'what is max number of tickets related to and its sla policy ?'
+Thinking...
+
+[System] Route chosen: HYBRID (Running both systems...)
+
+[System] Route chosen: RAG (Searching Documents...)
+
+================ AI ANSWER ================
+I do not have enough information.
+
+================ SOURCES USED ================
+- docs\customer_support_sop.md
+- docs\sla_policy.md
+===========================================
+
+
+[System] Route chosen: SQL (Querying Database...)
+
+================ AI ANSWER ================
+The maximum number of tickets is 15, and the associated SLA policy is 'Global - High'.
