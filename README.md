@@ -187,9 +187,9 @@ I do not have enough information in the provided documentation to answer this. W
 - docs\security_incident_response.md
 
 2. ## SQL
-  🚀 Enterprise AI Support Assistant Started!
-Type 'exit' or 'quit' to stop the assistant.
-=====================================================
+  ### 🚀Enterprise AI Support Assistant Started!
+  Type 'exit' or 'quit' to stop the assistant.
+
 
 🧑‍💻 You (Ask a question)number of organizations?
 
@@ -198,9 +198,9 @@ Thinking...
 
 [System] Route chosen: SQL (Querying Database...)
 
-================ AI ANSWER ================
+AI ANSWER : 
 There are 14 organizations.
-===========================================
+
 3. ## Mix of Both
 🧑‍💻 You (Ask a question)what is max number of tickets related to and its sla policy ?
 
@@ -211,16 +211,13 @@ Thinking...
 
 [System] Route chosen: RAG (Searching Documents...)
 
-================ AI ANSWER ================
+AI ANSWER : 
 I do not have enough information.
 
-================ SOURCES USED ================
+SOURCES USED :
 - docs\customer_support_sop.md
 - docs\sla_policy.md
-===========================================
-
 
 [System] Route chosen: SQL (Querying Database...)
-
-================ AI ANSWER ================
+AI ANSWER: 
 The maximum number of tickets is 15, and the associated SLA policy is 'Global - High'.
