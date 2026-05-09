@@ -178,10 +178,10 @@ The tool is now active and ready to answer queries using both the SQL database a
 1. ## RAG
   'What is the SLA for a security incident?'
 
-================ AI ANSWER ================
+AI ANSWER : 
 I do not have enough information in the provided documentation to answer this. While the documentation indicates that a confirmed security incident triggers a Level 3 Escalation and that critical incidents are handled 24/7, it does not specify a concrete SLA target for security incidents. It only mentions "accelerated SLA targets" for enterprise customers without detailing what those targets are.
 
-================ SOURCES USED ================
+SOURCES USED : 
 - docs\sla_policy.md
 - docs\escalation_policy.md
 - docs\security_incident_response.md
